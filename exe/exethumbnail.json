@@ -1,0 +1,10 @@
+{
+    "CacheThumbnail": false,
+    "KPlugin": {
+        "MimeTypes": [
+            "application/x-ms-dos-executable"
+        ],
+        "Name": "Microsoft Windows Executable (PE/NE)"
+    },
+    "MimeType": "application/x-ms-dos-executable;"
+}

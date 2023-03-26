@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component type="addon">
+  <id>io.jchw.kio-windows-thumbnails</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>ISC</project_license>
+  <extends>org.kde.dolphin.desktop</extends>
+  <extends>org.kde.konqueror.desktop</extends>
+  <extends>org.kde.krusader.desktop</extends>
+  <extends>org.kde.gwenview.desktop</extends>
+  <name>kio-windows-thumbnails</name>
+  <summary>Microsoft Windows Executable thumbnailer for KDE applications.</summary>
+  <description>
+    <p>This plugin enables thumbnails for Microsoft Windows executables in KDE applications.</p>
+  </description>
+  <url type="homepage">https://github.com/jchv/kio-windows-thumbnails</url>
+  <url type="bugtracker">https://github.com/jchv/kio-windows-thumbnails/issues</url>
+  <screenshots>
+    <screenshot type="default">
+      <image>TODO</image>
+      <caption>TODO</caption>
+    </screenshot>
+  </screenshots>
+  <categories>
+    <category>Graphics</category>
+  </categories>
+  <icon type="stock">application-postscript</icon>
+</component>
