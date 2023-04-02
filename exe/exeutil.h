@@ -2,4 +2,4 @@
 #include <QIODevice>
 #include <QImage>
 
-QImage iconForWindowsExecutable(QIODevice *file, QSize targetSize);
+QImage getIconForWindowsExecutable(QIODevice *file, QSize targetSize);

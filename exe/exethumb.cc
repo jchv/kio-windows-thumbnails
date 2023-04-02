@@ -22,7 +22,7 @@ KIO::ThumbnailResult ExeCreator::create(const KIO::ThumbnailRequest &request)
         return KIO::ThumbnailResult::fail();
     }
 
-    auto result = iconForWindowsExecutable(&file, request.targetSize());
+    auto result = getIconForWindowsExecutable(&file, request.targetSize());
     if (result.isNull()) {
         return KIO::ThumbnailResult::fail();
     }

@@ -11,7 +11,7 @@
         kio-windows-thumbnails = rec {
           defaultPackage = final.libsForQt5.callPackage ./package.nix { self = self; };
           devShell = defaultPackage.overrideAttrs (finalAttrs: prevAttrs: {
-            nativeBuildInputs = (prevAttrs.nativeBuildInputs or []) ++ [ final.clang-tools ];
+            nativeBuildInputs = (prevAttrs.nativeBuildInputs or []) ++ [ final.clang-tools final.valgrind ];
           });
         };
       };
